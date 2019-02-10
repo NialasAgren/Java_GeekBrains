@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Homework {
 
     public static void main(String[] args) {
-        GameToPlay();
+        gameToPlay();
     }
 
-    static void GameToPlay() {
+    private static void gameToPlay() {
         int a = 0; // Начальное значение диапазона - "от"
         int b = 9; // Конечное значение диапазона - "до"
         Scanner sc = new Scanner(System.in);
