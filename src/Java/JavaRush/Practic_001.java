@@ -6,7 +6,8 @@ public class Practic_001 {
     }
 
     private static void welcome() {
-        System.out.print("Hello, world!");
+        String s = "Привет, мир!";
+        System.out.print(s);
     }
 }
 /* Вызов метода в main */
