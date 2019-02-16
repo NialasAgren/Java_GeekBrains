@@ -9,6 +9,7 @@ public class PracticTool {
         //Тернарный оператор
         int a = 15;
         System.out.println("Переменная a " + (a > 10 ? "больше 10" : "меньше 10"));
+        string();
     }
 
     public static void newScanner(String[] args) {
@@ -33,7 +34,7 @@ public class PracticTool {
         System.out.println(Arrays.toString(array));
     }
 
-    public static void string(String[] args) {
+    public static void string() {
 
     }
 
