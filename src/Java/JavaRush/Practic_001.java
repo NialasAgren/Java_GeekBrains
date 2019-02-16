@@ -5,7 +5,7 @@ public class Practic_001 {
         welcome();
     }
 
-    private static void welcome() {
+     private static void welcome() {
         String s = "Привет, мир!";
         System.out.print(s);
     }
