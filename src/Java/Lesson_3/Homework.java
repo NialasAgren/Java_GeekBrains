@@ -4,14 +4,16 @@ import java.util.Scanner;
 
 public class Homework {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        playGame();
+    }
+
+    private static void playGame() {
         int a = 0; // Начальное значение диапазона - "от"
         int b = 9; // Конечное значение диапазона - "до"
         Scanner sc = new Scanner(System.in);
-        int number = 0;
+        int number = 0, y = 3, z = 0;
         int x = a + (int) (Math.random() * b); // Генерация числа
-        int y = 3;
-        int z = 0;
         do {
             System.out.print("Попробуйте угадать число от 1 до 9 " + "Осталось попыток[" + y + "]:");
             number = sc.nextInt();
